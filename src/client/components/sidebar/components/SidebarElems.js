@@ -1,10 +1,15 @@
 import {v4} from 'uuid'
 
-const SidebarElems = [
+export const SidebarElems = [
     
     {
         page: "Main",
         to: "/",
+        id: `${v4()}`
+    },
+    {
+        page: "Days",
+        to: "/days-type",
         id: `${v4()}`
     },
     {
@@ -22,7 +27,7 @@ const SidebarElems = [
         to: "/staff",
         id: `${v4()}`
     },
-        {
+    {
         page: "Working-month",
         to: "/working-month",
         id: `${v4()}`
