@@ -1,7 +1,9 @@
+import Header from './client/components/Header'
+
 function App() {
   return (
     <>
-      Hello Angry Beavers
+      <Header/> 
     </>
   );
 }
