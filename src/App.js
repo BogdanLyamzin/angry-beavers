@@ -1,7 +1,9 @@
+import React from 'react';
+import DaysPage from './pages/DaysPage/DaysPage'
 function App() {
   return (
     <>
-      Hello Angry Beavers
+      <DaysPage />
     </>
   );
 }
