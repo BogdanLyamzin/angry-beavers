@@ -1,0 +1,25 @@
+@import "reset";
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+
+body {
+  font-family: "Orbitron", sans-serif;
+  padding-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding-left: 350px;
+  }
+  .menu-icon {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-sidebar {
+    display: none !important;
+  }
+  .authBtn {
+    display: none !important;
+  }
+}

@@ -2,8 +2,8 @@ import React from 'react';
 
 function StaffPage(props) {
     return (
-        <div>
-            
+        <div className="content">
+            <p>StaffPage</p>
         </div>
     );
 }

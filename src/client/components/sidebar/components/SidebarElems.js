@@ -1,6 +1,6 @@
 import {v4} from 'uuid'
 
-export const SidebarElems = [
+export const sidebarElems = [
     
     {
         page: "Main",
