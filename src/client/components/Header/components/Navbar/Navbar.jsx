@@ -72,7 +72,9 @@ function Navbar() {
                     {isAuth && <Typography>user@gmail.com</Typography>}
                     <Toolbar>
                         {!isAuth ? <Box className="authBtn">
+                            <Link to="/login">
                                 <Button text="LogIn"  variant="contained" />
+                            </Link>
                             </Box> :
                             <Box className="authBtn">
                                 <Button text="LogOut" color="secondary" variant="contained"/>
