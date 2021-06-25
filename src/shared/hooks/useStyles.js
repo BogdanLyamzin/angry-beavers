@@ -26,9 +26,9 @@ export const useStyles = makeStyles((theme) => ({
     menuIcon:{
     position: "absolute",
     top: "5px",
-    left: "240px",
+    right: "15px",
+    zIndex: "1010",
     color: "white",
-    
   },
     menuBtn: {
         position: "absolute",

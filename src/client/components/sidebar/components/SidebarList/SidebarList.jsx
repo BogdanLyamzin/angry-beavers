@@ -1,14 +1,14 @@
 import React from 'react';
-import {sidebarElems} from "../SidebarElems";
+import navigationElems from "../../../../../shared/navigationElems";
 import SidebarItem from "../SIdebarItem";
 import {useStyles} from "../../../../../shared/hooks/useStyles";
 
 function SidebarList(props) {
     const styles = useStyles()
-    const murkupSidebar = sidebarElems.map(item => <SidebarItem key={item.id} {...item}/>)
+    const markupSidebar = navigationElems.map(item => <SidebarItem key={item.id} {...item}/>)
     return (
         <ul className={styles.sidebarList}>
-            {murkupSidebar}
+            {markupSidebar}
         </ul>
     );
 }
