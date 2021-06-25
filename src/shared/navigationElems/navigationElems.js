@@ -1,6 +1,6 @@
 import {v4} from 'uuid'
 
-export const SidebarElems = [
+ const navigationElems = [
     
     {
         page: "Main",
@@ -33,3 +33,4 @@ export const SidebarElems = [
         id: `${v4()}`
     }
 ]
+export default navigationElems

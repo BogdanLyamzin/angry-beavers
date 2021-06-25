@@ -2,8 +2,8 @@ import React from 'react';
 
 function DaysPage(props) {
     return (
-        <div>
-            
+        <div className="content">
+            <p>DayPage</p>
         </div>
     );
 }

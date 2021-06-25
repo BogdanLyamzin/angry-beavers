@@ -1,10 +1,11 @@
 import React from 'react'
-import {AppBar} from '@material-ui/core'
+
+import Navbar from "./components/Navbar";
 
 function Header() {
     return (
         <>
-            <AppBar/>
+            <Navbar/>
         </>
     )
 }

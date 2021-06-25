@@ -1,1 +1,1 @@
-export {default} from "./SidebarLast"
+export {default} from "./SidebarList"

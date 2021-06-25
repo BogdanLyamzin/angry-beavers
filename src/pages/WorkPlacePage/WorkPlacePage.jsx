@@ -2,8 +2,8 @@ import React from 'react';
 
 function WorkPlacePage(props) {
     return (
-        <div>
-            
+        <div className="content">
+            <p>WorkPlacePage</p>
         </div>
     );
 }
