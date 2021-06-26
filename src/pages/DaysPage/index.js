@@ -1,1 +1,1 @@
-export {default} from "./DaysPage"
+export { default } from "./DaysPage"
